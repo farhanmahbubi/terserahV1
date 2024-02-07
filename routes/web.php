@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/allin', function () {
     return view('allin');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
